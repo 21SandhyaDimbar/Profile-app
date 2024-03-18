@@ -13,7 +13,7 @@ function MapComponent({ profile }) {
   };
   return (
     // put API key that time map work fine
-    <LoadScript googleMapsApiKey="AIzaSyDK6JpxHg0LuM_SAEgQhZPREgxLzNIJPBo">
+    <LoadScript googleMapsApiKey="Your-API-Key">
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         zoom={10}
